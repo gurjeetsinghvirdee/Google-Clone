@@ -10,12 +10,12 @@ function Home() {
         <div className="home">
             <div className="home__header">
                 <div className="home__headerLeft">
-                    <Link to='/about'>About</Link>
-                    <Link to='/store'>Store</Link>
+                    <a href="https://about.google/">About</a>
+                    <a href="https://store.google.com/">Store</a>
                 </div>
                 <div className="home__headerRight">
-                    <Link to='/gmail/'>Gmail</Link>
-                    <Link to='/images'>Images</Link>
+                    <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+                    <a href="https://www.google.co.in/imghp?hl=en&tab=wi&ogbl">Images</a>
                     <AppIcon />
                     <Avatar />
                 </div>
