@@ -7,8 +7,8 @@ import { useHistory } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 import { actionTypes } from "./reducer";
 
-function Search({ hideButtons = false}) {
-const [{}, dispatch] = useStateValue();
+function Search({ hideButtons = false }) {
+    const [{}, dispatch] = useStateValue();
 
     const [input, setInput] = useState("");
     const history = useHistory();
@@ -37,13 +37,13 @@ const [{}, dispatch] = useStateValue();
 
             {!hideButtons ? (
                 <div className="search__buttons">
-                    <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
-                    <Button variant="outlined">I'm Feeling Lucky</Button>
+                    <Button type='submit' onClick={search} variant="outlined">Google Search</Button>
+                    <Button variant='outlined'>I'm Feeling Lucky</Button>
                 </div>
             ): (
                 <div className="search__buttons">
-                    <Button type="submit" onClick={search} variant="outlined">Google Search</Button>
-                    <Button variant="outlined">I'm Feeling Lucky</Button>
+                    <Button className="search__buttonsHidden" type='submit' onClick={search} variant="outlined">Google Search</Button>
+                    <Button className="search__buttonsHidden" variant="outlined">I'm Feeling Lucky</Button>
                 </div>
             )}
             

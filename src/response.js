@@ -42,10 +42,10 @@ export default {
       "formattedTotalResults": "730,000,000"
     },
     "items": [
-      {
+      { 
         "kind": "customsearch#result",
-        "title": "Null | Definition of Null by Merriam-Webster",
-        "htmlTitle": "\u003cb\u003eNull\u003c/b\u003e | Definition of \u003cb\u003eNull\u003c/b\u003e by Merriam-Webster",
+        "title": "Definition of Null by Merriam-Webster | Null",
+        "htmlTitle": " Definition of \u003cb\u003eNull\u003c/b\u003e by Merriam-Webster | \u003cb\u003eNull\u003c/b\u003e",
         "link": "https://www.merriam-webster.com/dictionary/null",
         "displayLink": "www.merriam-webster.com",
         "snippet": "Null definition is - having no legal or binding force : invalid. How to use null in a \nsentence. Did You Know?",
